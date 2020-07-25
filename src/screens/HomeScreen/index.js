@@ -27,7 +27,6 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Pankaj Covid 19</Text>
       <Image source={virus} style={styles.logo}></Image>
       <View style={styles.group}>
         <Button onPress={callGlobal} title="World Cases" containerStyle={styles.separator} />
