@@ -1,0 +1,17 @@
+{
+  "name": "Pankaj_Covid19",
+  "displayName": "Pankaj_Covid19",
+  "expo": {
+    "name": "Pankaj_Covid19",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
