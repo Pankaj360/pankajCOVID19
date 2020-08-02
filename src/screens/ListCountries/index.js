@@ -4,6 +4,8 @@ import { View, Image, Text, FlatList } from 'react-native';
 import { ListItem, SearchBar } from 'react-native-elements';
 
 
+
+
 const ListCountries = ({ navigation, route }) => {
   const { countries } = route.params;
   const [search, setSearch] = useState('');
@@ -39,5 +41,7 @@ const ListCountries = ({ navigation, route }) => {
     </View>
   );
 };
+
+
 
 export default ListCountries;

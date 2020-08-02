@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Image } from 'react-native';
 import styles from './styles';
 import virus from '../../assets/virus.png';
-import { Button, Divider } from 'react-native-elements';
+import { Button } from 'react-native-elements';
 import axios from 'axios';
+
+
+
 
 const HomeScreen = ({ navigation }) => {
   const url = 'https://api.covid19api.com/summary';
@@ -21,6 +24,8 @@ const HomeScreen = ({ navigation }) => {
 
     getData();
   }, []);
+
+  
 
   const callGlobal = () => navigation.navigate('Global', { report: report.Global });
   const callCountries = () => navigation.navigate('Countries', { countries: report.Countries });
